@@ -1,11 +1,6 @@
 #include "./shopping.h"
 #include <gtest/gtest.h>
 
-// TEST (testCaseName, testName){
-//   ... test body ...
-// }
-
-
 TEST(shopping_list_test, goods_object_test) {
   Goods testobject;
 
