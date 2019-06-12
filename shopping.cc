@@ -14,8 +14,7 @@ Goods Shopping::GetLastElement() {
 
 // Print shopping_list_ Elements
 void Shopping::PrintList() {
-  for (std::vector<Goods>::iterator i = shopping_list_.begin();
-      i != shopping_list_.end(); i++) {
+  for (std::vector<Goods>::iterator i = shopping_list_.begin(); i != shopping_list_.end(); i++) {
     std::cout << "Goods #" << i->GetIndex() << " - Price : " <<
     i->GetPrice() << std::endl;
   }
